@@ -6,10 +6,9 @@ on:
       - main
 
 jobs:
- build-and-deploy: 
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-  steps:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
