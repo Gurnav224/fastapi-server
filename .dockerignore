@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Environment variables
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker files (optional)
+Dockerfile
+.dockerignore
+
+# Tests & dev files
+tests/
+*.md
+
+# IDE files
+.vscode/
+.idea/
+
+# Node (if present in project)
+node_modules/
+
+# Database / local files
+*.sqlite3
+*.db
